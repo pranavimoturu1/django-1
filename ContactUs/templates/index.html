@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic HTML pagw with some movements</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+		<style type="text/css">
+			.css_properties {
+				margin-top: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3"></div>
+				<div class="col-xs-6 css_properties">
+					<!-- <h1>TROY chennai - Best Training Institute in chennai</h1> -->
+					<p>
+						Since 2003, TROY Infotech has provided individual and corporate clients with a superior learning experience under. As a trusted education partner we deliver more than 250+ IT and NON-IT training courses for 20+ vendors from such leading technology firms as Cisco, Microsoft, VMware, Oracle, Red Hat, Salesforce & Many More etc. We leverage these vendors’ professional technical training content and combine it with our award-winning course instructors to produce a consistently superior level of training.
+
+						TROY Infotech offers strategic training paths for the certification skills required to support today’s technologies, while offering a broad curriculum of application focused courses for clients looking to implement new/upgraded business applications.
+					</p>
+					<h4>If you want to know more <a href="http://www.troyinfotech.com/" target="_blank"> click here </a></h4>
+					<h4>Orelse <a href="/contact"> click here </a> contact</h4>		
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+</html>
